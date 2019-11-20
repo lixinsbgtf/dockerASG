@@ -1,0 +1,41 @@
+========================================
+= Recommended Knowledge and Experience =
+========================================
+Hands-on experience using compute, networking, storage, and database AWS services
+    Compute
+        EC2
+        EC2 Autoscaling
+        ECR (EC2 Container Registry) // ECR is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images
+        ECS // Container
+        EKS // Kubernetes
+        Lightsail? // Virtual servers, storage, databases, and networking for a low, predictable price.
+        Batch
+        Elastic Beanstalk
+        Fargate? // AWS Fargate is a compute engine for Amazon ECS that allows you to run containers without having to manage servers or clusters
+        Lambda
+        Outposts?
+            // AWS Outposts bring native AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility. You can use the same AWS APIs, tools, and infrastructure across on premises and the AWS cloud to deliver a truly consistent hybrid experience. 
+        Serverless application repository?
+        ELB // Load balancing
+        VWware Cloud on AWS?
+    Networking
+    Storage
+    Database
+Hands-on experience with AWS deployment and management services
+    Deployment
+    Management services
+Ability to identify and define technical requirements for an AWS-based application
+    Identify
+    Define
+Ability to identify which AWS services meet a given technical requirement
+    Services
+Knowledge of recommended best practices for building secure and reliable applications on the AWS platform
+An understanding of the basic architectural principles of building on the AWS Cloud
+    Architectural principles
+An understanding of the AWS global infrastructure
+    Global infrastructure
+An understanding of network technologies as they relate to AWS
+    Network technologies
+An understanding of security features and tools that AWS provides and how they relate to traditional services
+    Security features and tools
+

@@ -1,0 +1,25 @@
+docker run -d -p 80:80 nginx 
+    // -d run docker in detached mode, which means run docker in background 
+    // -p match the port
+
+
+
+Docker Basics for AWS ECS
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+
+// Update the installed packages and package cache on your instance.
+// Install the most recent Docker Community Edition package.
+// Start the Docker service.
+// Add the ec2-user to the docker group so you can execute Docker commands without using sudo.
+#!/bin/bash
+yum update -y
+amazon-linux-extras install docker -y
+service docker start
+usermod -a -G docker $(whoami)
+docker run -d -p 80:80 nginx
+
+// docker info
+
+
+// Attach IGW to VPC
+aws ec2 attach-internet-gateway --vpc-id "vpc-0c5f5af60628ca85e" --internet-gateway-id "igw-0e3597a42022c2290" --region us-east-1
